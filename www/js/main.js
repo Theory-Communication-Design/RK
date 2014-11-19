@@ -13,11 +13,6 @@ var app = {
         });
     },
 
-    initialize: function() {
-        this.store = new MemoryStore();
-        $('.search-key').on('keyup', $.proxy(this.findByName, this));
-    }
-
     showAlert: function (message, title) {
     if (navigator.notification) {
         navigator.notification.alert(message, null, title, 'OK');
@@ -26,13 +21,15 @@ var app = {
     }
 },
 
-initialize: function() {
+    initialize: function() {
     var self = this;
     this.store = new MemoryStore(function() {
         self.showAlert('Store Initialized', 'Info');
     });
     $('.search-key').on('keyup', $.proxy(this.findByName, this));
 }
+
+
 
 };
 
