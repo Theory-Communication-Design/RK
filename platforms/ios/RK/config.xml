@@ -25,11 +25,11 @@
     <feature name="Device">
         <param name="ios-package" value="CDVDevice" />
     </feature>
-    <name>Employee Directory</name>
+    <name>RK</name>
     <description>
         A simple employee directory application
     </description>
-    <author email="ccoenraets@gmail.com" href="http://coenraets.org">
-        Christophe Coenraets
+    <author email="adam@ilovetheory.com" href="http://ilovetheory.com">
+        Adam Elsedoudi
     </author>
 </widget>

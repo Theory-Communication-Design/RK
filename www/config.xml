@@ -5,14 +5,14 @@
         versionCode = "10"
         version     = "1.1.0">
  
-    <name>Employee Directory</name>
+    <name>RK</name>
  
     <description>
         A simple employee directory application
     </description>
  
-    <author href="http://coenraets.org" email="ccoenraets@gmail.com">
-        Christophe Coenraets
+    <author href="http://ilovetheory.com" email="adam@ilovetheory.com">
+        Adam Elsedoudi
     </author>
  
     <feature name="http://api.phonegap.com/1.0/camera"/>
